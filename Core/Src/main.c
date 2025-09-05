@@ -203,7 +203,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  //All code copied mostly from 12*16
+  //All code copied mostly from https://controllerstech.com/interface-7-segment-display-with-stm32-tm1637/
   uint8_t num = 0;
   uint8_t data[4] = {0, 0, 0, 0};
   int dir = 1;
